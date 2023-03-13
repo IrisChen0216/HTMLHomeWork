@@ -1,0 +1,62 @@
+nav a {
+    color: inherit;
+    text-decoration: none;
+    font-size: 1.2rem;
+    display: block;
+    padding: 10px;
+    }
+
+    nav > ul {
+    list-style: none;
+    background-color:#FFDC35;
+    padding: 0;
+    }
+
+    nav a:hover {
+    background-color: rgb(228, 108, 9);
+    color: white;
+    }
+
+    .flexNav{
+        display: flex;
+        justify-content: space-evenly
+    }
+
+     #littleMenu{
+        padding-left: 200px;
+        display:table;
+        text-align: center;    
+        vertical-align: bottom;
+     }
+
+    .block{
+        width:500px;
+        border:2px rgb(147, 147, 147) solid;
+        float:left;
+    }
+
+    .block>h1,.block>p{
+        padding-left:20px;
+    } 
+
+    #now{
+        margin-left: 200px;
+    }
+
+    #panda{
+        margin-left: 20px;
+    }
+    
+    .btnMore{
+        background-color: #FFDC35;
+        margin-left:20px ;
+        margin-bottom: 10px;
+        border-radius: 5px;
+        border: #FFDC35;
+        width: 100px;
+        height: 50px;
+    }
+    
+    .BigBlock{
+        margin-bottom: 100px;
+    } /*待改*/

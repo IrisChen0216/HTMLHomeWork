@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="./Mcfavicon.ico" type="image/x-icon">
+    <title>Document</title>
+    <link rel="stylesheet" href="style2.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div>
+        <a href="./homework.html"><img src="./Mcfavicon.ico" alt="麥克搭拿"></a> 
+    </div>
+    <div>
+        <nav>
+            <ul class="flexNav">
+                <li><a href="./homework.html">首頁</a></li>
+                <li><a href="./CP.html">超值全餐</a></li>
+                <li><a href="./Order.html">預定快取</a></li>
+                <li><a href="https://www.mcdonalds.com/tw/zh-tw/full-menu/beverages.html">飲料</a></li>
+                <li><a href="./find.html">尋找餐廳</a></li>
+            </ul>
+        </nav>
+    </div>
+ <div class="BG">
+    <h1>預定快取</h1>
+    <p>現在起預定快取免等待，現在下訂十分鐘內出餐! <strong style="color: rgb(255, 247, 19);">A區</strong>搭配<strong style="color: rgb(255, 247, 19);">B區</strong>一份套餐只要100元!</p>
+</div>   
+
+<div class="BG2">
+    <form action="order" method="get">
+        <h2>餐點選取-A區</h2>
+        <label for="ComboA">麥香雞翅套餐</label>
+        <input type="radio" id="ComboA" name="comboA">
+        <label for="ComboA">雙層大麥克套餐</label>
+        <input type="radio" id="ComboA" name="comboA">
+        <label for="ComboA">麥香魚套餐</label>
+        <input type="radio" id="ComboA" name="comboA">
+        <h2>餐點選取-B區</h2>
+        <label for="ComboB">可樂</label>
+        <input type="radio" id="ComboB" name="comboB">
+        <label for="ComboB">紅茶</label>
+        <input type="radio" id="ComboB" name="comboB">
+        <label for="ComboB">雪碧</label>
+        <input type="radio" id="ComboB" name="comboB">
+        <h2>超值加點區</h2>
+        <label for="orderMore">薯條50$</label>
+        <input type="checkbox" id="orderMore" name="OrderMore">
+        <label for="ComboB">冰淇淋150$</label>
+        <input type="checkbox" id="orderMore" name="OrderMore">
+        <label for="ComboB">洋蔥圈30$</label>
+        <input type="checkbox" id="orderMore" name="OrderMore">
+        <label for="ComboB">雞塊100$</label>
+        <input type="checkbox" id="orderMore" name="OrderMore">
+        <label for="ComboB">玉米濃湯60$</label>
+        <input type="checkbox" id="orderMore" name="OrderMore">
+        <label for="ComboB">蘋果派20$</label>
+        <input type="checkbox" id="orderMore" name="OrderMore">
+        <h2>取餐時間及日期</h2>
+        <input type="datetime-local" name="Date" id="date">
+        <h2>訂購人資訊</h2>
+        <label for="name">姓名：</label>
+        <input id="name" name="Name" type="text" required>
+        <label for="phone">電話：</label>
+        <input id="phone" name="Phone" type="text" required>
+        <label for="email">信箱：</label>
+        <input id="email" name="Email" type="text" required>
+        <h2>備註</h2>
+        <textarea name="Message" id="message" cols="30" rows="10">有任何想要說的嗎...?</textarea>
+        <input type="submit" value="確認資訊">
+    </form>
+</div>
+
+</body>
+</html>
